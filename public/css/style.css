@@ -1,0 +1,385 @@
+body{
+    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    background: #040714;
+
+}
+
+h2{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+h3{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 16px;
+}
+
+header{
+    height: 70px;
+    background: #040714;
+    position: fixed;
+    width: 100%;
+}
+
+.sub{
+    margin-top: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.disneyLogo{
+    width: 80px;
+}
+
+.down{
+    width: 20px;
+    color: white;
+}
+
+
+.logo{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-left: 61px;
+
+}
+
+.login{
+    margin: 10px;
+    margin-right: 35px;
+    font-size: 18.5px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 12px;
+    width: 154px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.portada{
+    background-image: url("../images/portada1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.portElements{
+    padding: 90px 70px 70px 70px;
+    width: 610px;
+
+}
+.comboLogo{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 395px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.pIb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.pIb h2{
+    font-size: 26px;
+}
+
+.pIb a{
+    padding: 22px;
+    color: whitesmoke;
+    background: #0063E5;
+    border-radius: 4px;
+    width: 560px;
+    text-decoration: none;
+}
+
+.aP{
+    display: flex;
+    flex-direction: column;
+}
+
+.aste{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: rgb(155, 155, 155);
+}
+
+.aste p{
+    font-size: 11.5px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    width:610px;
+}
+
+.prices a{
+    color: whitesmoke;
+}
+
+.prices p{
+    color: rgb(155, 155, 155);
+}
+
+.options{
+    height: 100vh;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.options h3{
+    font-size: 40px;
+}
+
+
+.sectionImgs{
+    width: 598px;
+}
+
+
+.textContainer{
+    max-width: 520px;
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textContainer p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+.textContainer2{
+    max-width: 520px;
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textContainer2 p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+
+.comboButton{
+    margin-top: 22px;
+    border-radius: 4px;
+    color: whitesmoke;
+    padding: 20px;
+    background:#0063E5;
+    text-decoration: none;
+    text-align: center;
+    font-size: 19px;
+    width: 310px;
+}
+
+.alinear{
+    position: relative;
+}
+
+
+
+.reyLeon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.option{
+    height: 100vh;
+    padding: 40px;
+}
+
+.option h2{
+    text-align: center;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.reyLeon{
+    background-image: url(../images/reyleon.png) ;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer3{
+    padding-left: 560px;
+    max-width: 525px;
+}
+
+.textContainer3 h3{
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.textContainer3 p{
+    line-height: 30px;
+}
+.dispo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.dispContainer h3{
+    font-size: 25px;
+}
+
+.tv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 240px;
+    padding: 20px;
+}
+
+.cmpu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 240px;
+    padding: 20px;
+}
+
+.cel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 240px;
+    padding: 20px;
+}
+
+.cons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 240px;
+    padding: 20px;
+}
+
+.iconW{
+    width: 300px;
+}
+
+footer{
+    padding: 50px;
+    color: rgb(155, 155, 155);
+    text-align: center;
+}
+
+footer p{
+    font-size: 11px;
+}
+
+.info{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info a{
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}
+
+.info p{
+    margin: 12px;
+}
+
+.info p:hover{
+    color: whitesmoke;
+}
+
+.copyRight{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.disneyArg{
+    display:flex;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    flex-direction: row;
+}
+
+
+
+/* Portrait and Landscape in Galaxy Phones */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .comboLogo{
+        display: none;
+    }
+    .comboLogoRes{
+        display: flex;
+    }
+}
