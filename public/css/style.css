@@ -64,7 +64,6 @@ nav{
     margin-bottom: 6px;
     margin-top: 4px;
     margin-left: 61px;
-
 }
 
 .login{
@@ -188,6 +187,7 @@ nav{
     line-height: 25px;
     margin-top: 25px;
 }
+
 .textContainer2{
     max-width: 520px;
     margin: 32px;
@@ -352,7 +352,7 @@ footer p{
     color: whitesmoke;
 }
 
-.copyRight{
+.copyright{
     padding: 15px;
     justify-content: center;
     align-items: center;
@@ -368,3 +368,32 @@ footer p{
     flex-direction: row;
 }
 
+/* ----------- Phones ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+  }
+
+/* ----------- Desktop ----------- */
